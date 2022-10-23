@@ -6,7 +6,8 @@
 
 int main (void)
 {
-	char;
+	int ch;
+
 	_putchar("\n");
 	return (0);	
 }
