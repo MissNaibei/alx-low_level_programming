@@ -8,9 +8,9 @@
  */
 int _islower(int c)
 {
-int var;
+int c;
 
-if(islower(var))
+if (islower(c))
 return (1);
 return (0);
 }
