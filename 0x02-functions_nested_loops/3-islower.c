@@ -10,7 +10,7 @@ int _islower(int c)
 {
 int var;
 
-if (islower(var))
+if(islower(var))
 return (1);
 return (0);
 }
