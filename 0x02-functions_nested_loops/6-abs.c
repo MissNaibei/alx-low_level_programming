@@ -5,12 +5,12 @@
  * return abs value
  * return 0 always
  */
-int _abs(int)
+int _abs(int i)
 {
-if (int > 0)
-return (int);
-else if (int < 0)
-return (-int);
+if (i > 0)
+return (i);
+else if (i < 0)
+return (-i);
 else
 return (0);
 }
