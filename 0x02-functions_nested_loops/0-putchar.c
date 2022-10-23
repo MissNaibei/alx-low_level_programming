@@ -4,9 +4,9 @@
 * Return: zero(success)
 */
 
-int main ()
+int main (void)
 {
-	;
+	char;
 	_putchar("\n");
 	return (0);	
 }
