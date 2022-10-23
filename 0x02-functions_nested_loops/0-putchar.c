@@ -1,13 +1,18 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
-* main 
-* Return: zero(success)
-*/
-
-int main (void)
+ * main 
+ * Return: 0
+ */
+int main(void)
 {
-	int ch;
+	char *val = "Valentine";
 
-	_putchar("\n");
-	return (0);	
+	while (*val)
+	{
+		_putchar(*val);
+		val++;
+	}
+	_putchar('\n');
+	return (0);
 }
