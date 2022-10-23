@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,5 +11,6 @@ int c;
 
 if (c >= 'a' && c <= 'z')
 return (1);
+
 return (0);
 }
