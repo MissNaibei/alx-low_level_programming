@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main 
+ * main: check the char  
  * Return: 0
  */
 int main(void)
