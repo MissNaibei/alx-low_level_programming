@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * main: check the char  
- * Return: 0
- */
+*main - function prints text as output
+*Return:return 0
+*/
+
 int main(void)
 {
-	char *val = "Valentine";
+	char school[10] = "_putchar";
 
-	while (*val)
+	int i;
+
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(*val);
-		val++;
+		_putchar(school[i]);
 	}
-	_putchar('\n');
+	_putchar(10);
 	return (0);
 }
