@@ -6,8 +6,8 @@
  * Return: 0 success
  */
 
-int print_last_digit(int a)
+int print_last_digit(int a, last_digit)
 {
-last_digit = a % 10
+int last_digit = a % 10
 return (last_digit);
 }
