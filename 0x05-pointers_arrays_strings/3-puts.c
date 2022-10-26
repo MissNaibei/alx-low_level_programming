@@ -18,13 +18,14 @@ void _puts(char *str)
 /**
  *_puts - prints a string followed by a new line to std output
  * @str: string to print
- * Description: prints a string
- * On success: return the number of characters printed
+ * Return: Return string characters
  */
 void _puts(char *str)
 {
-while (*str)
-_putchar(*str++);
+for (; *str != '\0'; str++)
+{
+_putchar(*str);
+}
 _putchar('\n');
 }
 >>>>>>> 92d1d5570b26995b9bc9cd8d8e4f258a68ed7879
