@@ -2,12 +2,13 @@
 /**
  *_puts - prints a string followed by a new line to std output
  * @str: string to print
- * Description: prints a string
- * On success: return the number of characters printed
+ * Return: Return string characters
  */
 void _puts(char *str)
 {
-while (*str)
-_putchar(*str++);
+for (; *strr != '\0'; strr++)
+{
+_putchar(*str);
+}
 _putchar('\n');
 }
