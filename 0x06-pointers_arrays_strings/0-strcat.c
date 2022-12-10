@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * *_strcat -> This is a function
+ * _strcat -> This is a function
  * @dest: First parameter
  * @src: Second parameter
- *Return: a string
+ * Return: a string
  */
 
 char *_strcat(char *dest, char *src)
