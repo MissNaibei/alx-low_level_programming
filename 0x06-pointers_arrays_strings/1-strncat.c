@@ -2,10 +2,10 @@
 #include <string.h>
 
 /*
- *_strncat -> the function
- *@dest: first parameter
- *@src: second parameter
- *return: string
+ * _strncat - the function that concatenates two strings
+ * @dest: first parameter
+ * @src: second parameter
+ * return: string
  */
 char *_strncat(char *dest, char *src, int n)
 {
